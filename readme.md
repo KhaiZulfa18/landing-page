@@ -7,21 +7,21 @@
 4. Follow IG @khaiz.18_ :v
 
 ## Built With?
-*Html & CSS
-*JavaScript
-*Jquery
-*Particle JS
+* Html & CSS
+* JavaScript
+* Jquery
+* Particle JS
 
 ## Reference?
-*ParticleJS
-  *https://vincentgarreau.com/particles.js/
-*Page
-  *https://github.com/flexdinesh/dev-landing-page
-*Menu
-  *https://youtu.be/F-mvXKKoSCU
-*Dark/Light Mode
-  *https://codepen.io/Nicksource/pen/zYvoypj
+* ParticleJS
+  * https://vincentgarreau.com/particles.js/
+* Page
+  * https://github.com/flexdinesh/dev-landing-page
+* Menu
+  * https://youtu.be/F-mvXKKoSCU
+* Dark/Light Mode
+  * https://codepen.io/Nicksource/pen/zYvoypj
   
- ## copyright 2020 || Khai Zulfa
+ ##### copyright 2020 || Khai Zulfa
   
   
