@@ -161,6 +161,9 @@ input:checked:before{
 	/*color: #4c516d;*/
 	color: #1d2951;
 }
+footer p.pengembang{
+	visibility: hidden;
+}
 
 @media only screen and (max-width: 900px){
 	.clock{

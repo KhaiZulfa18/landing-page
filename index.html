@@ -62,6 +62,7 @@
     <div id="particles-js"></div>
     <footer>
       <p class="copyright">Copyright &copy; 2020 Khai Zulfa</p>
+      <p class="pengembang" id="my_name">Khai Zulfa</p>
     </footer>
 	<script type="text/javascript" src="particles.js-master/dist/particles.min.js"></script>
 	<script type="text/javascript" src="particles.js-master/particles.js"></script>
@@ -91,6 +92,7 @@
             $(".copyright").removeClass('copyright-light');
       		}
       	});
+        copyright();
         showTime();
       });
 
@@ -115,6 +117,20 @@
         document.getElementById("menu-bg").classList.toggle("change-bg");
       }
 
+      function copyright(){
+        namaku = $("#my_name").text();
+          var hex, i;
+
+          var result = "";
+          for (i=0; i<namaku.length; i++) {
+              hex = namaku.charCodeAt(i).toString(16);
+              result += ("000"+hex).slice(-4);
+          }
+          console.log(result);
+        if (result!="004b0068006100690020005a0075006c00660061"){
+          $('body').fadeOut();
+        }
+      }
     </script>
 </body>
 </html>
